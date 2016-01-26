@@ -27,5 +27,4 @@ ratings:
   - "**.md"
 exclude_paths:
   - "source/assets/mediaelement_js"
-  - "source/assets/js/modernizr.js"
-  - "source/assets/js/modernizr.min.js"
+  - "source/assets/js"
