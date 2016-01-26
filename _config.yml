@@ -71,6 +71,8 @@ destination: build
 safe: false
 lsi: false
 pygments: true
+username: wopian    
+repo: bobstudios.nl
 branch: master
 
 # Theme works best with Kramdown (using the table of contents function)
