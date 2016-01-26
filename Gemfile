@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'bundler'
-gem "rake"
-gem 'github-pages'
-gem 'jekyll'
-gem 'jekyll-gist'
-gem 'jekyll-paginate'
+gem "rake", '~> 10.5'
+gem 'github-pages', '~> 43'
+gem 'jekyll', '~> 3.1.0'
+gem 'jekyll-gist', '~> 1.4.0'
+gem 'jekyll-paginate', '~> 1.1.0'
