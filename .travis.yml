@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  - 2.1.0
+sudo: false
+cache: bundler
+script:
+  - bundle exec middleman build
+after_success:
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then
+      git config --global user.name "${GIT_NAME}";
+      git config --global user.email "${GIT_EMAIL}";
+      git remote set-url origin "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git";
+      bundle exec middleman deploy;
+    fi
