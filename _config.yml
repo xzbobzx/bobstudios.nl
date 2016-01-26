@@ -5,17 +5,25 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# Global settings
+source: source
+destination: build
+
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Bobstudios.nl 
+email: wopiancitizen123@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://bobstudios.nl" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  wopian
+
+# Serve settings
+port: 40000
+host: localhost
 
 # Build settings
 markdown: kramdown
