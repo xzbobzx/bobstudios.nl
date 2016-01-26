@@ -25,6 +25,7 @@ ratings:
   - "**.scss"
   - "**.yml"
   - "**.md"
+  - "**.html"
 exclude_paths:
   - "source/assets/mediaelement_js"
   - "source/assets/js"
