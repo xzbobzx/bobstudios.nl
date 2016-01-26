@@ -1,12 +1,15 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: Blog
+  url: "/blog/"
   side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
 
-- title: "Templates"
+- title: "Games"
   url: "/design/"
   side: left
   dropdown:
@@ -31,10 +34,12 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
+- title: "Other"
   url: "/headers/"
   side: left
   dropdown:
+  - title:
+    url: "/getting-started/"
   - title: "Header with Full-Width-Image"
     url: "/design/header-full-width-image/"
   - title: "Header with Image and Pattern"
@@ -58,13 +63,6 @@
     url: "/changelog/"
   - title: "Roadmap"
     url: "/roadmap/"
-
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
 
 - title: "Search"
   url: "/search/"
