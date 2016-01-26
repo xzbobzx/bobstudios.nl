@@ -154,14 +154,6 @@
 
           
           
-        
-
-              
-                
-              
-
-          
-          
             
             
               <li class="divider"></li>
@@ -202,24 +194,7 @@
 
             
             
-              <li><a href="https://bobstudios.nl/">Start</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
-              <li><a href="https://bobstudios.nl/getting-started/">Getting Started</a></li>
+              <li><a href="https://bobstudios.nl/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -238,7 +213,37 @@
             
 
               <li class="has-dropdown">
-                <a href="https://bobstudios.nl/design/">Templates</a>
+                <a href="https://bobstudios.nl/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="https://bobstudios.nl/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="https://bobstudios.nl/design/">Games</a>
 
                   <ul class="dropdown">
                     
@@ -331,9 +336,16 @@
             
 
               <li class="has-dropdown">
-                <a href="https://bobstudios.nl/headers/">Header Styles</a>
+                <a href="https://bobstudios.nl/headers/">Other</a>
 
                   <ul class="dropdown">
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="https://bobstudios.nl/getting-started/"></a></li>
                     
 
                       
@@ -420,36 +432,6 @@
                       
 
                       <li><a href="https://bobstudios.nl/roadmap/">Roadmap</a></li>
-                    
-                  </ul>
-
-              </li>
-              <li class="divider"></li>
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
-
-              <li class="has-dropdown">
-                <a href="https://bobstudios.nl/blog/">Blog</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="https://bobstudios.nl/blog/archive/">Blog Archive</a></li>
                     
                   </ul>
 
@@ -673,15 +655,9 @@
           <section id="subfooter-right" class="small-12 medium-6 columns">
             <ul class="inline-list social-icons">
             
-              <li><a href="http://github.com/phlow" target="_blank" class="icon-github" title="Code und mehr..."></a></li>
+              <li><a href="http://github.com/wopian/bobstudios.nl" target="_blank" class="icon-github" title="Code and more..."></a></li>
             
-              <li><a href="http://www.youtube.com/PhlowMedia" target="_blank" class="icon-youtube" title="Videos, Video-Anleitungen und Filme von Phlow auf YouTube"></a></li>
-            
-              <li><a href="http://twitter.com/phlow" target="_blank" class="icon-twitter" title="Immer das Neuste von Phlow gibt es auf Twitter"></a></li>
-            
-              <li><a href="http://www.mixcloud.com/phlow/" target="_blank" class="icon-cloud" title="Mixe, was sonst?"></a></li>
-            
-              <li><a href="https://plus.google.com/u/0/+Phlow" target="_blank" class="icon-googleplus" title="YouTube Google+"></a></li>
+              <li><a href="https://youtube.com/PhlowMedia" target="_blank" class="icon-youtube" title="Watch development videos on YouTube"></a></li>
             
             </ul>
           </section>
