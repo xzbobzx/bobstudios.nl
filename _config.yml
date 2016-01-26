@@ -71,7 +71,7 @@ destination: build
 # or "master" otherwise
 safe: false
 lsi: false
-pygments: true
+highlighter: true
 username: wopian    
 repo: bobstudios.nl
 branch: master
