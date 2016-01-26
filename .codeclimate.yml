@@ -1,0 +1,31 @@
+engines:
+  bundler-audit:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+  eslint:
+    enabled: true
+  scss-lint:
+    enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.js"
+  - "**.rb"
+  - "**.erb"
+  - "**.erb"
+  - "**.scss"
+  - "**.yml"
+  - "**.md"
+exclude_paths:
+  - "source/assets/mediaelement_js"
+  - "source/assets/js/modernizr.js"
+  - "source/assets/js/modernizr.min.js"
