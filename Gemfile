@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.1.3'
 
-gem 'wdm', '>= 0.1.0'
+gem 'github-pages'
+gem 'jekyll'
+gem 'jekyll-gist'
+gem 'jekyll-paginate'
