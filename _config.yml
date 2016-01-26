@@ -59,6 +59,7 @@ paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
 source: source
+relative_source: source
 destination: build
 
 # Settings for deploy rake task
