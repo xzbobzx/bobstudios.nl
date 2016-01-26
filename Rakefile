@@ -87,8 +87,8 @@ def parameterize(string, sep = '-')
 end
 
 def check_destination
-  unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://#{ENV['GITHUB_USERNAME']}:#{ENV['GITHUB_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+  unless Dir.exist? CONFIG['destination']
+    sh "git clone https://#{ENV['GITHUB_USERNAME']}:#{ENV['GITHUB_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG['destination']}"
   end
 end
 
@@ -99,32 +99,32 @@ end
 #############################################################################
 
 namespace :post do
-  desc "Create a new post"
+  desc 'Create a new post'
   task :create do
-    title = ENV["title"] || "new-post"
+    title = ENV['title'] || 'new-post'
     begin
       slug = parameterize(title)
       puts slug
     rescue => e
-      puts "Error: invalid characters in title"
+      puts 'Error: invalid characters in title'
       exit -1
     end
 
     begin
       date = ENV['date'] ? Date.parse(ENV['date']) : Date.today
     rescue => e
-      puts "Error: date format must be YYYY-MM-DD"
+      puts 'Error: date format must be YYYY-MM-DD'
       exit -1
     end
 
-    filename = File.join("_posts", "#{date}-#{slug}.md")
+    filename = File.join('_posts', "#{date}-#{slug}.md")
     if File.exist?(filename)
-      puts "Error: post already exists"
+      puts 'Error: post already exists'
       exit -1
     end
 
-    header = { "layout" => "post", "title" => title }
-    content = header.to_yaml + "---\n"
+    header = { 'layout' => 'post', 'title' => title }
+    content = header.to_yaml + '---\n'
 
     if IO.write(filename, content)
       puts "Post #{filename} created"
@@ -135,27 +135,27 @@ namespace :post do
 end
 
 namespace :page do
-  desc "Create a new page"
+  desc 'Create a new page'
   task :create do
-    title = ENV["title"] || "new-page"
+    title = ENV['title'] || 'new-page'
     begin
       slug = parameterize(title)
       puts slug
     rescue => e
-      puts "Error: invalid characters in title"
+      puts 'Error: invalid characters in title'
       exit -1
     end
 
-    folder = ENV["folder"] || "."
+    folder = ENV['folder'] || '.'
 
     filename = File.join(folder, "#{slug}.md")
     if File.exist?(filename)
-      puts "Error: page already exists"
+      puts 'Error: page already exists'
       exit -1
     end
 
-    header = { "layout" => "page", "title" => title }
-    content = header.to_yaml + "---\n"
+    header = { 'layout' => 'page', 'title' => title }
+    content = header.to_yaml + '---\n'
 
     if IO.write(filename, content)
       puts "Page #{filename} created"
@@ -172,24 +172,24 @@ end
 #############################################################################
 
 namespace :site do
-  desc "Generate the site"
+  desc 'Generate the site'
   task :build do
     check_destination
-    sh "bundle exec jekyll build"
+    sh 'bundle exec jekyll build'
   end
 
-  desc "Generate the site and serve locally"
+  desc 'Generate the site and serve locally'
   task :serve do
     check_destination
-    sh "bundle exec jekyll serve"
+    sh 'bundle exec jekyll serve'
   end
 
-  desc "Generate the site, serve locally and watch for changes"
+  desc 'Generate the site, serve locally and watch for changes'
   task :watch do
-    sh "bundle exec jekyll serve --watch"
+    sh 'bundle exec jekyll serve --watch'
   end
 
-  desc "Generate the site and push changes to remote origin"
+  desc 'Generate the site and push changes to remote origin'
   task :deploy do
     # Detect pull request
     if ENV['TRAVIS_PULL_REQUEST'].to_s.to_i > 0
@@ -198,7 +198,7 @@ namespace :site do
     end
 
     # Configure git if this is run in Travis CI
-    if ENV["TRAVIS"]
+    if ENV['TRAVIS']
       sh "git config --global user.name '#{ENV['GIT_NAME']}'"
       sh "git config --global user.email '#{ENV['GIT_EMAIL']}'"
       sh "git config --global push.default simple"
@@ -208,15 +208,15 @@ namespace :site do
     check_destination
 
     sh "git checkout #{SOURCE_BRANCH}"
-    Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
+    Dir.chdir(CONFIG['destination']) { sh "git checkout #{DESTINATION_BRANCH}" }
 
     # Generate the site
-    sh "bundle exec jekyll build"
+    sh 'bundle exec jekyll build'
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
-    Dir.chdir(CONFIG["destination"]) do
-      sh "git add --all ."
+    Dir.chdir(CONFIG['destination']) do
+      sh 'git add --all .'
       sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
       sh "git push --quiet origin #{DESTINATION_BRANCH}"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
