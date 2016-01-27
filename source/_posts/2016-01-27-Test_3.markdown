@@ -1,0 +1,22 @@
+---
+        
+
+        layout: page-fullwidth
+        
+
+        title: Test 3
+        
+
+        subheadline: Just another test...
+        
+
+        categories:
+        - test
+        
+
+        header:
+        
+
+        ---
+        
+

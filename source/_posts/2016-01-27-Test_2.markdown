@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Testing
-date: 'date +%:z'
+title: Test 2
 categories:
 - test
 ---
