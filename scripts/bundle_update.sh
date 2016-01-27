@@ -1,5 +1,5 @@
 #!/bin/bash
-# File name: setup.sh
+# File name: bundle_update.sh
 
 source ./config.conf
 
