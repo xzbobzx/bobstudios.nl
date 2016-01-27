@@ -1,10 +1,6 @@
 #!/bin/bash
 # File name: _initialisePart-2.sh
 
-source ./config.conf
-
-cd $location
-
 echo "Installing Ruby"
 
 choco install ruby -y
