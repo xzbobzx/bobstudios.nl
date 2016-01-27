@@ -1,0 +1,8 @@
+---
+layout: post
+title: Test 2
+date: 'date +%:z'
+categories:
+- test
+---
+
