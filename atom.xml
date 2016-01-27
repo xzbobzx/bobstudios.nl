@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://bobstudios.nl/</id>
 	<title>Bobstudios</title>
-	<updated>2016-01-27T00:06:23+00:00</updated>
+	<updated>2016-01-27T02:40:29+00:00</updated>
 
 	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
 
@@ -26,6 +26,194 @@
 
 	<generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
 
+	
+		<entry>
+			<id>https://bobstudios.nl/it/worked/Testing_Shell_Generation/</id>
+			<title>Testing Shell Generation</title>
+			<link href="https://bobstudios.nl/it/worked/Testing_Shell_Generation/" rel="alternate" type="text/html" title="Testing Shell Generation" />
+			<updated>2016-01-27T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="https://bobstudios.nl/it/worked/Testing_Shell_Generation/">
+</content>
+
+			
+				<category term="it" />
+			
+				<category term="worked" />
+			
+			
+
+			<published>2016-01-27T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://bobstudios.nl/test/Testing/</id>
+			<title>Testing</title>
+			<link href="https://bobstudios.nl/test/Testing/" rel="alternate" type="text/html" title="Testing" />
+			<updated>2016-01-27T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="https://bobstudios.nl/test/Testing/">
+</content>
+
+			
+				<category term="test" />
+			
+			
+
+			<published>2016-01-27T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://bobstudios.nl/Test_3/</id>
+			<title>Test_3</title>
+			<link href="https://bobstudios.nl/Test_3/" rel="alternate" type="text/html" title="Test_3" />
+			<updated>2016-01-27T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="https://bobstudios.nl/Test_3/">&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;    layout: page-fullwidth
+    
+
+    title: Test 3
+    
+
+    subheadline: Just another test...
+    
+
+    categories:
+    - test
+    
+
+    header:
+    
+
+    ---
+&lt;/code&gt;&lt;/pre&gt;
+
+</content>
+
+			
+			
+
+			<published>2016-01-27T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://bobstudios.nl/test/Test_2/</id>
+			<title>Test 2</title>
+			<link href="https://bobstudios.nl/test/Test_2/" rel="alternate" type="text/html" title="Test 2" />
+			<updated>2016-01-27T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="https://bobstudios.nl/test/Test_2/">
+</content>
+
+			
+				<category term="test" />
+			
+			
+
+			<published>2016-01-27T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://bobstudios.nl/test/Just_another_test/</id>
+			<title>Just another test</title>
+			<link href="https://bobstudios.nl/test/Just_another_test/" rel="alternate" type="text/html" title="Just another test" />
+			<updated>2016-01-27T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="https://bobstudios.nl/test/Just_another_test/">
+</content>
+
+			
+				<category term="test" />
+			
+			
+
+			<published>2016-01-27T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://bobstudios.nl/test/4th_Test/</id>
+			<title>4th Test</title>
+			<link href="https://bobstudios.nl/test/4th_Test/" rel="alternate" type="text/html" title="4th Test" />
+			<updated>2016-01-27T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="https://bobstudios.nl/test/4th_Test/">
+</content>
+
+			
+				<category term="test" />
+			
+			
+
+			<published>2016-01-27T00:00:00+00:00</published>
+		</entry>
 	
 		<entry>
 			<id>https://bobstudios.nl/design/test/</id>
@@ -627,410 +815,6 @@ element&lt;/td&gt;
 			
 
 			<published>2015-08-15T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>https://bobstudios.nl/design/no-header/</id>
-			<title>No Header</title>
-			<link href="https://bobstudios.nl/design/no-header/" rel="alternate" type="text/html" title="No Header" />
-			<updated>2015-08-11T00:00:00+00:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Feeling Responsive allows you to use all kinds of headers. This example shows &lt;em&gt;no&lt;/em&gt; header at all. Just the navigation.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/no-header/">&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;header: no
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="background color" />
-			
-				<category term="header" />
-			
-
-			<published>2015-08-11T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>https://bobstudios.nl/design/no-header-but-image/</id>
-			<title>No Header but Article Image</title>
-			<link href="https://bobstudios.nl/design/no-header-but-image/" rel="alternate" type="text/html" title="No Header but Article Image" />
-			<updated>2015-03-12T00:00:00+00:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Feeling Responsive enables you to get the attention of visitors. If you don&#39;t want to use a big header, use an image for the article instead.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/no-header-but-image/">&lt;p&gt;First turn of the header with &lt;code&gt;header: no&lt;/code&gt;. Then add an image to with the following code. The caption is optional.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;header: no
-image:
-    title: unsplash_eagle.jpg
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="background color" />
-			
-				<category term="header" />
-			
-
-			<published>2015-03-12T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>https://bobstudios.nl/design/header-with-text/</id>
-			<title>Header With Text</title>
-			<link href="https://bobstudios.nl/design/header-with-text/" rel="alternate" type="text/html" title="Header With Text" />
-			<updated>2015-02-10T00:00:00+00:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Feeling Responsive allows you to use all kinds of headers. This header is with text.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/header-with-text/">&lt;!--more--&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    title: header with text
-    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="background color" />
-			
-				<category term="header" />
-			
-
-			<published>2015-02-10T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>https://bobstudios.nl/design/header-logo-only/</id>
-			<title>Header With Logo Only</title>
-			<link href="https://bobstudios.nl/design/header-logo-only/" rel="alternate" type="text/html" title="Header With Logo Only" />
-			<updated>2014-10-09T00:00:00+00:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Feeling Responsive allows you to use all kinds of headers. This is the default mode. It shows a header just with your logo on the standard background.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/header-logo-only/">&lt;p&gt;No front matter code needed.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="background color" />
-			
-				<category term="header" />
-			
-
-			<published>2014-10-09T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>https://bobstudios.nl/design/header-image-color/</id>
-			<title>Header Image With Background Color</title>
-			<link href="https://bobstudios.nl/design/header-image-color/" rel="alternate" type="text/html" title="Header Image With Background Color" />
-			<updated>2014-10-09T00:00:00+00:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Feeling Responsive allows you to use all kinds of headers. This example shows a header image with a defined background color via front matter.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/header-image-color/">&lt;p&gt;It’s so easy to do. Just define in front matter an image and a background color. Instead of a color you can also use a pattern image. Have a look at the &lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;example with a background pattern&lt;/a&gt;.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;div class=&quot;alert-box alert radius &quot;&gt;&lt;p&gt;WARNING: To make this work the value of &lt;code&gt;background-color&lt;/code&gt; must be inbetween quotes.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    image: &quot;header_unsplash_2-970x.jpg&quot;
-    background-color: &quot;#fabb00&quot;
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="background color" />
-			
-				<category term="header" />
-			
-
-			<published>2014-10-09T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>https://bobstudios.nl/design/header-full-width-image/</id>
-			<title>Header with a Full-Width-Image</title>
-			<link href="https://bobstudios.nl/design/header-full-width-image/" rel="alternate" type="text/html" title="Header with a Full-Width-Image" />
-			<updated>2014-10-09T00:00:00+00:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Feeling Responsive allows you to use all kinds of headers. This example shows a header with a &lt;em&gt;full-width-image&lt;/em&gt;.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/header-full-width-image/">&lt;p&gt;It’s so easy to do. Just define in front matter your image.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    image_fullwidth: &quot;unsplash_brooklyn-bridge_header.jpg&quot;
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="background color" />
-			
-				<category term="header" />
-			
-
-			<published>2014-10-09T00:00:00+00:00</published>
 		</entry>
 	
 </feed>
