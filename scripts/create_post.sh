@@ -26,23 +26,17 @@ file=`date +"%Y-%m-%d"`-$title_ed.$filetype
 touch $file
 
 echo -e "---
-        \n
-        layout: page-fullwidth
-        \n
-        title: $title
-        \n
-        subheadline: $subheadline
-        \n
-        categories:
-        `for v in $categories
-            do
-	           echo -e "- $v"
-        done`
-        \n
-        header:
-        \n
-        ---
-        \n" > $file
+layout: page-fullwidth
+title: $title
+subheadline: $subheadline
+categories:
+`for v in $categories
+    do
+        echo -e "- $v"
+done`
+header:
+---
+\n" > $file
 
 $editor $file
 
