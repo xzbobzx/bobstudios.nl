@@ -1,0 +1,8 @@
+---
+layout: post
+title: 123
+date: 'date +%:z'
+categories:
+- 123
+---
+
