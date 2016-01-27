@@ -9,4 +9,4 @@ echo -e "Gem to update: (press space + enter to update all)"
 
 read update
 
-bundler update $gemUpdate
+bundle update $update
