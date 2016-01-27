@@ -7,6 +7,6 @@ cd $location
 
 echo -e "Gem to update: (press space + enter to update all)"
 
-read gemUpdate
+read update
 
 bundler update $gemUpdate

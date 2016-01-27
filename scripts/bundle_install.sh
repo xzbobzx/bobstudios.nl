@@ -5,6 +5,8 @@ source ./config.conf
 
 cd $location
 
-echo "Updating Gemfile.lock"
+echo -e "Gem to install: (press space + enter to update all)"
 
-bundler install
+read install
+
+bundle install $install
