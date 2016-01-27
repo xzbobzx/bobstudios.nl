@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://bobstudios.nl/</id>
 	<title>Bobstudios</title>
-	<updated>2016-01-27T00:03:15+00:00</updated>
+	<updated>2016-01-27T00:06:23+00:00</updated>
 
 	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
 
@@ -44,7 +44,8 @@
 				</author>
 			
 			<summary>This is a test.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/test/">&lt;p&gt;Is Handlebars supported? About This Site&lt;/p&gt;
+			<content type="html" xml:base="https://bobstudios.nl/design/test/">&lt;p&gt;Is Handlebars supported? About This Site
+How about German?&lt;/p&gt;
 
 &lt;h2 class=&quot;t60&quot; id=&quot;other-post-formats&quot;&gt;Other Post Formats&lt;/h2&gt;
 
