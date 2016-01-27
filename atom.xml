@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://bobstudios.nl/</id>
 	<title>Bobstudios</title>
-	<updated>2016-01-26T23:44:47+00:00</updated>
+	<updated>2016-01-27T00:03:15+00:00</updated>
 
 	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
 
@@ -26,6 +26,50 @@
 
 	<generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
 
+	
+		<entry>
+			<id>https://bobstudios.nl/design/test/</id>
+			<title>Test</title>
+			<link href="https://bobstudios.nl/design/test/" rel="alternate" type="text/html" title="Test" />
+			<updated>2016-01-01T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>This is a test.</summary>
+			<content type="html" xml:base="https://bobstudios.nl/design/test/">&lt;p&gt;Is Handlebars supported? About This Site&lt;/p&gt;
+
+&lt;h2 class=&quot;t60&quot; id=&quot;other-post-formats&quot;&gt;Other Post Formats&lt;/h2&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/test/&quot;&gt;Test &amp;middot; &lt;strong&gt;Test&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</content>
+
+			
+				<category term="design" />
+			
+			
+				<category term="test" />
+			
+
+			<published>2016-01-01T00:00:00+00:00</published>
+		</entry>
 	
 		<entry>
 			<id>https://bobstudios.nl/design/mediaelement_js/</id>
@@ -986,76 +1030,6 @@ image:
 			
 
 			<published>2014-10-09T00:00:00+00:00</published>
-		</entry>
-	
-		<entry>
-			<id>https://bobstudios.nl/design/header-image-pattern/</id>
-			<title>Header Image With Pattern</title>
-			<link href="https://bobstudios.nl/design/header-image-pattern/" rel="alternate" type="text/html" title="Header Image With Pattern" />
-			<updated>2014-10-08T00:00:00+00:00</updated>
-
-			
-				
-				<author>
-					
-						<name>phlow</name>
-					
-					
-					
-				</author>
-			
-			<summary>Feeling Responsive allows you to use all kinds of headers. This example shows a header image in front of a pattern.</summary>
-			<content type="html" xml:base="https://bobstudios.nl/design/header-image-pattern/">&lt;p&gt;It’s so easy to do. Just define in front matter an image and a pattern image. Instead of a pattern you can also use a color. Have a look at the &lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;example with a background color&lt;/a&gt;.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;header:
-    image:  &quot;header_unsplash_2-970x.jpg&quot;
-    pattern:  &quot;pattern_concrete.jpg&quot;
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;https://bobstudios.nl/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="design" />
-			
-			
-				<category term="design" />
-			
-				<category term="pattern" />
-			
-				<category term="header" />
-			
-
-			<published>2014-10-08T00:00:00+00:00</published>
 		</entry>
 	
 </feed>
